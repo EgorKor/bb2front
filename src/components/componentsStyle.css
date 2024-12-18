@@ -1,0 +1,22 @@
+.generation-nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 70px;
+    width: 100%;
+
+}
+
+.generation-nav-button-div{
+    display: block;
+    text-align: center;   
+}
+
+.generation-nav-button{
+    color:black;
+    font-size: 24px;
+    background-color: antiquewhite;
+    border: 1px solid;
+    height: 70px;
+    min-width: 80%;
+    width: fit-content;
+};
