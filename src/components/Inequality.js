@@ -35,7 +35,7 @@ function Inequality(){
 
     const fetchContent = async () => {
         axios.get("http://localhost:8080/generate/inequality")
-        .then(response => {setContent(response.data); setError("")})
+        .then(response => {setContent(response.data); setError("");})
         .catch(error => {setError(error)});
     }
 

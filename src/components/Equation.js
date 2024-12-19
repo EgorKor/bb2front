@@ -44,7 +44,9 @@ function Equation(){
 
     const fetchContent = async () => {
         axios.get("http://localhost:8080/generate/equation")
-        .then(response => {setContent(response.data.equation); setError("")})
+        .then(response => {
+            setContent(response.data); 
+            setError("")})
         .catch(error => {setError("Ошибка")})
     }
 
